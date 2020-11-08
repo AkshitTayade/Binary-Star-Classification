@@ -1,0 +1,75 @@
+
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-attachment: fixed;
+  background-image: url('bg-1.jpg');
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  opacity:0.8;
+}
+
+
+.jumbotron{
+  height: 330px;
+  background-color: transparent !important;
+  color: white;
+}
+
+@media (max-width:767px){
+  .form{
+    margin-top: 150px;
+  }
+}
+form input{
+  width: 300px !important;
+  margin-left:50px;
+}
+
+form label{
+  color: white !important;
+}
+
+form button{
+  color: white !important;
+  border-color: white !important;
+}
+#result
+{
+background: url('https://images.creativemarket.com/0.1.0/ps/1904313/300/200/m2/fpc/wm0/i1dia5fb1dnydii74ni8kuulkuecm3qjqk7xlumxpihdkubtikenjxhjbuceji5w-.jpg?1479299158&s=6d16646df30f28521dd71861f48199e8') no-repeat center center;
+background-size: cover;
+position: relative;
+z-index: 1;
+margin-top: 70px;
+padding-bottom: 15px;
+opacity: 0.9;
+}
+
+.result_title
+{
+	color: #000;
+	margin-top: 20px;
+}
+.lead
+{
+	color: #000;
+	letter-spacing: 0 !important;
+}
+.img-fluid
+{
+	margin-top: 10px;
+}
+
+
